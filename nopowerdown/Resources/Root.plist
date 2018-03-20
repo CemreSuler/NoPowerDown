@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.chmbr.NoPowerDownPrefs</string>
+			<key>key</key>
+			<string>EnabledSwitch</string>
+			<key>label</key>
+			<string>Enabled</string>
+
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Change what the alert says</string>
+		</dict>
+
+		<dict>
+					<key>cell</key>             <string>PSEditTextCell</string>
+					<key>defaults</key>         <string>com.chmbr.NoPowerDownPrefs</string>
+					<key>key</key>              <string>TitleT</string>
+					<key>label</key>            <string>Title</string>
+
+			</dict>
+			<dict>
+            <key>cell</key>             <string>PSEditTextCell</string>
+            <key>defaults</key>         <string>com.chmbr.NoPowerDownPrefs</string>
+            <key>key</key>              <string>BodyT</string>
+            <key>label</key>            <string>Body</string>
+
+        </dict>
+				<dict>
+							<key>cell</key>             <string>PSEditTextCell</string>
+							<key>defaults</key>         <string>com.chmbr.NoPowerDownPrefs</string>
+							<key>key</key>              <string>CancelT</string>
+							<key>label</key>            <string>Cancel Button</string>
+
+					</dict>
+					<dict>
+			            <key>cell</key>
+									<string>PSButtonCell</string>
+			            <key>label</key>
+									<string>Preview Your Alert</string>
+			            <key>action</key>
+									<string>previewalert</string>
+			        </dict>
+		<dict>
+            <key>cell</key>
+						<string>PSButtonCell</string>
+            <key>label</key>
+						<string>Save Settings and Respring</string>
+            <key>action</key>
+						<string>save</string>
+        </dict>
+				<dict>
+					<key>cell</key>
+					<string>PSGroupCell</string>
+					<key>label</key>
+					<string></string>
+				</dict>
+				<dict>
+		            <key>cell</key>
+								<string>PSButtonCell</string>
+		            <key>label</key>
+								<string>Want to donate?</string>
+		            <key>action</key>
+								<string>donate</string>
+		        </dict>
+
+	</array>
+	<key>title</key>
+	<string>NoPowerDown</string>
+</dict>
+</plist>

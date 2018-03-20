@@ -1,0 +1,9 @@
+Package: com.chmbr.nopowerdown
+Name: NoPowerDown
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Cemre Suler
+Author: Cemre Suler
+Section: Tweaks
